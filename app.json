@@ -1,33 +1,33 @@
 {
   "expo": {
-    "name": "fodmap-app",
+    "name": "fodmapp",
     "slug": "fodmap-app",
-    "version": "1.0.0",
+    "owner": "adedicatedcoder",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/fodmapp-final.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/fodmapp-final.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/fodmapp-final.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.adedicatedcoder.fodmapapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon-fodmap.png"
     }
   }
 }
